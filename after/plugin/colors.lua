@@ -1,10 +1,10 @@
-require("catppuccin").setup { 
+require("catppuccin").setup {
     flavour = "frappe",
     integrations = {
         telescope = true,
         treesitter = true,
         nvimtree = true,
-        lualine = true,
+        -- lualine = true,
     },
     highlight_overrides = {
         all = function(colors)
