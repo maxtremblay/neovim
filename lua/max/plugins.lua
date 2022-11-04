@@ -19,6 +19,15 @@ return require('packer').startup(function(use)
     use("nvim-lua/plenary.nvim")
     use("nvim-lua/popup.nvim")
 
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+    }
+
+    use "nvim-lualine/lualine.nvim"
+
     use("nvim-treesitter/nvim-treesitter", {
         run = ":TSUpdate"
     })

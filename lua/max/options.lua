@@ -1,3 +1,6 @@
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.opt.guicursor = ""
 vim.opt.errorbells = false
 vim.opt.termguicolors = true
@@ -31,4 +34,7 @@ vim.opt.updatetime = 50
 
 vim.g.netrw_banner = 0
 
+vim.opt.cmdheight = 0
 
+vim.g.laststatus=0
+--vim.opt.ruler=false
