@@ -27,7 +27,8 @@ vim.opt.wrap = false
 
 vim.g.mapleader = " "
 
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 12
+
 vim.opt.signcolumn = "yes"
 
 vim.opt.updatetime = 50
