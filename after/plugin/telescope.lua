@@ -5,8 +5,8 @@ local nnoremap = require("max.keymap").nnoremap
 nnoremap("<leader>f", builtin.find_files)
 nnoremap("<leader>b", builtin.buffers)
 nnoremap("<leader>/", builtin.live_grep)
+nnoremap("<leader>?", builtin.help_tags)
 
-nnoremap("<leader>sh", builtin.help_tags)
 nnoremap("<leader>sr", builtin.registers)
 nnoremap("<leader>sz", builtin.current_buffer_fuzzy_find)
 

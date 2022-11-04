@@ -26,6 +26,7 @@ vim.opt.incsearch = true
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 vim.opt.scrolloff = 12
 
@@ -38,4 +39,5 @@ vim.g.netrw_banner = 0
 vim.opt.cmdheight = 0
 
 vim.g.laststatus=0
---vim.opt.ruler=false
+
+vim.opt.completeopt = 'menuone,noselect'
