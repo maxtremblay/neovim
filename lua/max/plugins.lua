@@ -41,6 +41,15 @@ return require('packer').startup(function(use)
     use { 'hrsh7th/nvim-cmp', requires = { 'hrsh7th/cmp-nvim-lsp' } }
     use { 'L3MON4D3/LuaSnip', requires = { 'saadparwaiz1/cmp_luasnip' } }
 
+    use {
+        'numToStr/Comment.nvim',
+        config = function()
+            require('Comment').setup()
+        end
+    }
+
+    use "Pocco81/true-zen.nvim"
+
     -- auto install lsp
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig.nvim'
